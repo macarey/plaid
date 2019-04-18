@@ -1,0 +1,5 @@
+Below are the results from the Challenge4.py script
+
+Total Plaid institutions: 10233
+Institutions supporting identity product: 3272
+Institutions with first in the name: 893

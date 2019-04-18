@@ -1,0 +1,19 @@
+Hi George,
+
+I appreciate you reaching out. After reviewing your issue, it looks like you are missing your public key in the data of your POST.  This key is unique to you and can be found at https://dashboard.plaid.com/account/keys. Below is a request I just tested to ensure the API is active.  Be sure to replace YOUR_PUBLIC_KEY with the key found at the aforementioned link.
+
+curl --request POST "https://sandbox.plaid.com/institutions/search" \
+ -H 'content-type: application/json' \
+ -d '{
+   "query": "BB&T",
+   "products": ["auth"],
+   "public_key": "YOUR_PUBLIC_KEY"
+ }'
+
+
+If your issues persist, feel free to respond to this email and we will work to get to the bottom of it!
+
+Thanks,
+
+Mark Carey
+Technical Support Engineer

@@ -1,0 +1,16 @@
+Local app created following quickstart guide.
+
+=====Accounts===== =====Balances=====
+Plaid Checking		$100	
+Plaid Saving		$200	
+Plaid CD		$1000	
+Plaid Credit Card	$410	
+Plaid Money Market	$43200	
+Plaid IRA		$320.75	
+Plaid 401k		$22258.294
+
+=====Item Details=====
+
+Institution name	Wells Fargo
+Billed products		transactions
+Available products	assets, auth, balance, credit_details, identity, income

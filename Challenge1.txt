@@ -1,0 +1,14 @@
+Hi Amy,
+
+
+
+Thanks for reaching out! The difference between a public token and an access token is primarily in their duration. Public tokens are ephemeral, meaning they only last a short amount of 
+time.   These tokens are provided when an item is created and their purpose is to be exchanged for a longer living access token.  These access tokens are then affilited with the item 
+and can access product data on that specific item, and that item only.  You can exchange tokens by calling the /item/public_token/exchange endpoint.  In regards to your initial issue involving item creation, if you are getting an INVALID_CREDENTIALS error, you most likely have not included your public_key in the payload of your request.  This key can be found at https://dashboard.plaid.com/account/keys.  Documentation regarding item creation can be found at https://plaid.com/docs/#integrating-with-link. 
+
+If your issues persist, please respond with the details of the API call you are making, as well as the environment you are working in (Sandbox/Development/Production).  This will allow me to provide more specific assistance. 
+
+Cheers,
+
+Mark Carey
+Plaid Technical Support Engineer
