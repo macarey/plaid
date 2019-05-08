@@ -4,8 +4,8 @@ import json
 
 # API calling function to return json dictionary of institution data
 def getInstitutionData(offset):
-    client_ID = '5cb79ee85f6405001217f174'
-    secret = '025476d4aa2c21172ee9c4b20b7428'
+    client_ID = '...'
+    secret = '...'
     url = 'https://sandbox.plaid.com/institutions/get'
     payload = {
         "client_id": client_ID,
